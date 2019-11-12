@@ -19,6 +19,19 @@ $(function () {
 });
 
 // Progress Bars
-jQuery(document).ready(function(){
-    jQuery
+$().ready(function(){
+    $("#progress-elements").waypoint(function(){
+
+        // alert('Hello waypoints');
+        $(".progress-bar").each(function () {
+            $(this).animate({
+                width: $(this).attr("aria-valuenow") + "%"
+            }, 1000);
+        });
+
+        this.destroy();
+
+    }, {
+        offset: 'bottom-in-view'
+    });
 });
