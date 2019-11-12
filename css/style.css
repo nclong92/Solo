@@ -372,6 +372,7 @@ ul.social-list li:nth-child(3) a:hover {
     font-weight: normal;
 }
 
+/* Progress bar */
 .progress {
     height: 25px;
     border-radius: 0;
@@ -403,4 +404,27 @@ ul.social-list li:nth-child(3) a:hover {
     position: absolute;
     bottom: -8px;
     left: 23%;
+}
+
+/* Statement */
+#statement {
+  background: url("../img/tech/tech-quote.jpg") no-repeat fixed center;
+  background-size: cover;
+}
+
+#statement .content-box-lg {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#tech-statement h3 {
+  color: #fff;
+  font-size: 28px;
+  line-height: 45px;
+}
+
+#tech-statement p {
+  font-size: 14px;
+  color: #f4c613;
+  font-family: "Raleway", sans-serif;
+  margin-top: 8px;
 }
