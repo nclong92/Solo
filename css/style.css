@@ -624,3 +624,12 @@ ul.social-list li:nth-child(3) a:hover {
     line-height: 24px;
     margin-bottom: 30px;
 }
+
+/* Portfolio */
+#portfolio .vertical-heading {
+  margin-bottom: 50px;
+}
+
+.row.no-gutters [class*=col-]{
+  padding: 0;
+}
