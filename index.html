@@ -623,14 +623,27 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Portfolio Items Filters -->
+                        <div id="isotope-filters">
+                            <button class="btn" data-filter="*"><span>All</span></button>
+                            <button class="btn" data-filter=".logo"><span>Logo</span></button>
+                            <button class="btn" data-filter=".web"><span>Web</span></button>
+                            <button class="btn" data-filter=".mobile"><span>Mobile</span></button>
+                            <button class="btn" data-filter=".desktop"><span>Desktop</span></button>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Portfolio Items Wrapper -->
             <section id="portfolio-wrapper">
-                <div class="container-fluid">
-                    <div class="row no-gutters">
-                        <!-- <div id="*-container"> -->
-                            <div class="col-md-3">
+                <div >
+                    <div id="isotope-container" class="container-fluid">
+                        <div class="row no-gutters">
+                            <!-- <div id="*-container"> -->
+                            <div class="col-md-3 web">
                                 <!-- Portfolio Item 01 -->
                                 <div class="portfolio-item">
                                     <a href="img/portfolio/001.jpg" title="Thêm mô tả">
@@ -652,7 +665,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 logo">
                                 <!-- Portfolio Item 02 -->
                                 <div class="portfolio-item">
                                     <a href="img/portfolio/002.jpg" title="Thêm mô tả">
@@ -674,7 +687,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 web logo">
                                 <!-- Portfolio Item 03 -->
                                 <div class="portfolio-item">
                                     <a href="img/portfolio/003.jpg" title="Thêm mô tả">
@@ -696,7 +709,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 web logo mobile">
                                 <!-- Portfolio Item 01 -->
                                 <div class="portfolio-item">
                                     <a href="img/portfolio/004.jpg" title="Thêm mô tả">
@@ -718,11 +731,11 @@
                                     </a>
                                 </div>
                             </div>
-                        <!-- </div> -->
-                    </div>
-                    <div class="row no-gutters">
-                        <!-- <div id="*-container"> -->
-                            <div class="col-md-3">
+                            <!-- </div> -->
+                        </div>
+                        <div class="row no-gutters">
+                            <!-- <div id="*-container"> -->
+                            <div class="col-md-3 mobile">
                                 <!-- Portfolio Item 05 -->
                                 <div class="portfolio-item">
                                     <a href="img/portfolio/005.jpg" title="Thêm mô tả">
@@ -744,7 +757,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 desktop">
                                 <!-- Portfolio Item 06 -->
                                 <div class="portfolio-item">
                                     <a href="img/portfolio/006.jpg" title="Thêm mô tả">
@@ -766,7 +779,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 desktop logo">
                                 <!-- Portfolio Item 07 -->
                                 <div class="portfolio-item">
                                     <a href="img/portfolio/007.jpg" title="Thêm mô tả">
@@ -788,7 +801,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 logo web mobile desktop">
                                 <!-- Portfolio Item 08 -->
                                 <div class="portfolio-item">
                                     <a href="img/portfolio/008.jpg" title="Thêm mô tả">
@@ -810,7 +823,8 @@
                                     </a>
                                 </div>
                             </div>
-                        <!-- </div> -->
+                            <!-- </div> -->
+                        </div>
                     </div>
                 </div>
             </section>
@@ -842,6 +856,9 @@
 
     <!-- Responsive Tab JS -->
     <script src="js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
+
+    <!-- Isotoper -->
+    <script src="js/isotope/isotope.pkgd.min.js"></script>
 
     <!-- Custom JS -->
     <script src="js/script.js"></script>

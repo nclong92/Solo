@@ -42,3 +42,26 @@ $().ready(function(){
         animation: 'slide'
     });
 });
+
+// Portfolio
+$(window).on('load', function(){
+
+    // Initialize Isotope
+    $("#isotope-container").isotope({
+
+    });
+
+    // filter items on button click
+    $("#isotope-filters").on('click', 'button', function(){
+        // get filter value
+        var filterValue = $(this).attr('data-filter');
+
+        // filter portfolio
+        $("#isotope-container").isotope({
+            filter: filterValue
+        });
+
+        $("#isotope-filters").find('.active').removeClass('active');
+        $(this).addClass('active');
+    })
+});
