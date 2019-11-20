@@ -19,8 +19,8 @@ $(function () {
 });
 
 // Progress Bars
-$().ready(function(){
-    $("#progress-elements").waypoint(function(){
+$().ready(function () {
+    $("#progress-elements").waypoint(function () {
 
         // alert('Hello waypoints');
         $(".progress-bar").each(function () {
@@ -37,7 +37,7 @@ $().ready(function(){
 });
 
 // Responsive Tabs
-$().ready(function(){
+$().ready(function () {
     $('#services-tabs').responsiveTabs({
         animation: 'slide'
     });
@@ -67,7 +67,7 @@ $(window).on('load', function () {
 });
 
 // Magnifier
-$(function(){
+$(function () {
     $("#portfolio-wrapper").magnificPopup({
         delegate: 'a',
         type: 'image',
@@ -78,7 +78,7 @@ $(function(){
 });
 
 // Testimonials
-$(function(){
+$(function () {
     $('#testimonial-slider').owlCarousel({
         items: 1,
         autoplay: false,
@@ -88,5 +88,13 @@ $(function(){
         nav: true,
         dots: false,
         navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>']
-    })
-})
+    });
+});
+
+$(function(){
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
+});
+
