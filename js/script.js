@@ -76,3 +76,17 @@ $(function(){
         }
     })
 });
+
+// Testimonials
+$(function(){
+    $('#testimonial-slider').owlCarousel({
+        items: 1,
+        autoplay: false,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        nav: true,
+        dots: false,
+        navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>']
+    })
+})
