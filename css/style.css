@@ -200,6 +200,9 @@ b, strong {
 .content-box-md {
   padding: 100px 0;
 }
+.content-box-sm {
+  padding: 80px 0;
+}
 
 /* Vertical / Horizontal Headings */
 .vertical-heading h5 {
@@ -1009,4 +1012,25 @@ ul.social-list li:nth-child(3) a:hover {
   color: #fff;
   -webkit-transform: translateY(-20px);
   transform: translateY(-20px);
+}
+
+/* Clients */
+#clients .horizontal-heading {
+  margin-bottom: 30px;
+}
+
+#clients-list {
+  padding: 45px 0 0 0;
+}
+
+.client {
+  padding: 0 10px;
+  max-width: 150px;
+  margin: 150px;
+  margin: 0 auto;
+  line-height: 100px;
+}
+
+.client img {
+  display: inline-block !important;
 }

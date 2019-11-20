@@ -91,6 +91,7 @@ $(function () {
     });
 });
 
+// Stats
 $(function(){
     $('.counter').counterUp({
         delay: 10,
@@ -98,3 +99,16 @@ $(function(){
     });
 });
 
+// Clients
+$(function () {
+    $('#clients-list').owlCarousel({
+        items: 6,
+        autoplay: false,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        nav: true,
+        dots: false,
+        navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>']
+    });
+});
