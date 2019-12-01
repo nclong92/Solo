@@ -12,8 +12,11 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+/* h6 {
   font-family: "Releway", sans-serif;
+} */
+h6 {
+  font-family: sans-serif;
 }
 
 p {
@@ -208,7 +211,7 @@ b, strong {
 .vertical-heading h5 {
   color: #f4c613;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
   word-spacing: 9px;
   display: inline-block;
@@ -239,6 +242,7 @@ b, strong {
 
 .horizontal-heading h5 {
   font-size: 16px;
+  font-weight: 700;
   color: #f4c613;
   text-transform: uppercase;
   display: inline-block;
@@ -1093,3 +1097,56 @@ ul.social-list li:nth-child(3) a:hover {
   font-weight: 500;
   margin: 0;
 }
+
+/* Contact */
+#contact-left p {
+  margin: 25px 0px 20px 15px;
+}
+
+ul.office-details {
+  list-style: none;
+  padding: 0;
+}
+
+ul.office-details li {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ul.office-details li i {
+  font-size: 20px;
+  width: 45px;
+}
+
+ul.office-details li svg {
+  font-size: 20px;
+  width: 25px;
+}
+
+ul.office-details li .svg-inline--fa{
+  font-size: 20px;
+  width: 50px;
+}
+
+#contact-left ul.social-list li a {
+  color: #212226;
+  border: 1px solid #212226;
+  text-align: center;
+}
+
+#contact-left ul.social-list li a:hover {
+  color: #fff;
+  border-color: transparent;
+}
+
+/* Contact Right */
+#contact-right {
+  padding: 23px 30px;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
