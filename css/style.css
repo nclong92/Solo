@@ -1164,3 +1164,23 @@ footer p {
 footer p span {
   color: #f4c613;
 }
+
+.navbar-brand img {
+  max-height: 60px;
+}
+
+/* Navigation */
+ul.navbar-nav > li > a {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+ul.navbar-nav > li > a:hover,
+ul.navbar-nav > li > a:focus {
+  background: none;
+  columns: #f4c613;
+}
