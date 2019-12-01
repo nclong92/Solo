@@ -1150,3 +1150,17 @@ ul.office-details li .svg-inline--fa{
   border-radius: 4px;
 }
 
+/* Footer */
+footer {
+  background: #212226;
+  padding: 30px;
+}
+
+footer p {
+  color: #fff;
+  line-height: 20px;
+}
+
+footer p span {
+  color: #f4c613;
+}
