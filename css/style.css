@@ -31,7 +31,8 @@ section {
   overflow: hidden;
 }
 
-b, strong {
+b,
+strong {
   font-weight: 700;
 }
 
@@ -173,6 +174,15 @@ b, strong {
   color: #fff;
   background-color: #212226;
   border: 1px solid #212226;
+}
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 3px 15px;
+  border-radius: 4px;
+  font-size: 22px;
 }
 
 /* Arrow Down */
@@ -961,7 +971,7 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 /* Stats */
-#stats{
+#stats {
   background: url("../img/stats/stats-bg.jpg") no-repeat fixed center;
   background-size: cover;
 }
@@ -1126,7 +1136,7 @@ ul.office-details li svg {
   width: 25px;
 }
 
-ul.office-details li .svg-inline--fa{
+ul.office-details li .svg-inline--fa {
   font-size: 20px;
   width: 50px;
 }
@@ -1170,8 +1180,20 @@ footer p span {
 }
 
 /* Navigation */
+/* .navbar {
+  padding: 35px 0 20px 0;
+}
+
+.site-nav-wrapper {
+  padding: 0 85px;
+}
+ */
+.navbar-brand {
+  padding: 0px 150px;
+}
+
 ul.navbar-nav > li > a {
-  font-family: "Raleway", sans-serif;
+  font-family: sans-serif, "Raleway";
   color: #fff;
   font-size: 13px;
   font-weight: 400;
@@ -1182,5 +1204,27 @@ ul.navbar-nav > li > a {
 ul.navbar-nav > li > a:hover,
 ul.navbar-nav > li > a:focus {
   background: none;
-  columns: #f4c613;
+  color: #f4c613;
+}
+
+.white-nav-top {
+  background: #fff;
+  padding: 10px 0;
+  -webkit-box-shadow: 0 8px 6px -9px #999;
+  box-shadow: 0 8px 6px -9px #999;
+  z-index: 2;
+}
+
+.white-nav-top ul.navbar-nav > li > a {
+  color: #212226;
+}
+
+.white-nav-top ul.navbar-nav > li > a:hover,
+.white-nav-top ul.navbar-nav > li > a:focus {
+  color: #f4c613;
+}
+
+.white-nav-top ul.navbar-nav > li > a.active {
+  color: #f4c613;
+  font-weight: 500;
 }

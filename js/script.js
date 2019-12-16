@@ -92,7 +92,7 @@ $(function () {
 });
 
 // Stats
-$(function(){
+$(function () {
     $('.counter').counterUp({
         delay: 10,
         time: 1000
@@ -110,5 +110,54 @@ $(function () {
         nav: true,
         dots: false,
         navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>']
+    });
+});
+
+// Navigation
+// Show & hide white navigation
+$(function () {
+
+    showHideNav();
+
+    $(window).scroll(function () {
+        showHideNav();
+    });
+
+    function showHideNav() {
+
+        if ($(window).scrollTop() > 50) {
+
+            // Show white nav
+            $("nav").addClass("white-nav-top");
+
+            // Show dark logo
+            $(".navbar-brand img").attr("src", "img/logo/logo-dark.png");
+
+            $("#back-to-top").fadeIn();
+        } else {
+            // Hide white nav
+            $("nav").removeClass("white-nav-top");
+
+            // Show logo
+            $(".navbar-brand img").attr("src", "img/logo/logo.png");
+
+            $("#back-to-top").fadeOut();
+        }
+    }
+});
+
+// Smooth Scrolling
+$(function() {
+
+    $("a.smooth-scroll").click(function(event) {
+
+        event.preventDefault();
+
+        // get section id like #home, #about, #work ...
+        var section_id = $(this).attr("href");
+
+        $("html, body").animate({
+            scrollTop: $(section_id).offset().top - 64
+        }, 1250, "easeInOutExpo");
     });
 });

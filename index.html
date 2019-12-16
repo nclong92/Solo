@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset=65>
 
     <!-- Preloader -->
     <div id="preloader">
@@ -43,8 +43,8 @@
 
     <!-- Header -->
     <!-- <header> -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-lg fixed-top white-nav-top">
+        <a class="navbar-brand smooth-scroll" href="#home">
             <img src="img/logo/logo.png">
         </a>
         <div class="container">
@@ -59,25 +59,25 @@
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Trang chủ <span class="sr-only">(current)</span></a>
+                        <a class="nav-link smooth-scroll" href="#home">Trang chủ <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Giới thiệu </a>
+                        <a class="nav-link smooth-scroll" href="#about">Giới thiệu </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#team">Team</a>
+                        <a class="nav-link smooth-scroll" href="#team">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Dịch vụ </a>
+                        <a class="nav-link smooth-scroll" href="#services">Dịch vụ </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Công việc </a>
+                        <a class="nav-link smooth-scroll" href="#portfolio">Công việc </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
+                        <a class="nav-link smooth-scroll" href="#blog">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Liên lạc </a>
+                        <a class="nav-link smooth-scroll" href="#contact">Liên lạc </a>
                     </li>
                 </ul>
             </div>
@@ -111,14 +111,14 @@
                     </p>
                 </div>
                 <div id="home-btn">
-                    <a class="btn btn-general btn-home" href="#about" title="Start Now" role="button">Bắt đầu khám
+                    <a class="btn btn-general btn-home smooth-scroll" href="#about" title="Start Now" role="button">Bắt đầu khám
                         phá</a>
                 </div>
             </div>
         </div>
 
         <!-- Arrow Down -->
-        <a href="#about" id="arrow-down">
+        <a href="#about" id="arrow-down" class="smooth-scroll">
             <i class="fa fa-angle-down"></i>
         </a>
     </section>
@@ -1434,6 +1434,11 @@
                 </div>
             </div>
         </div>
+        <!-- Back To Top -->
+        <a href="#home" id="back-to-top" class="btn btn-sm btn-yellow btn-back-to-top smooth-scroll" title="home" role="button">
+            <i class="fas fa-angle-up"></i>
+        </a>
+                
     </footer>
 
     <!-- JQuery -->
@@ -1462,6 +1467,9 @@
 
     <!-- Counter up -->
     <script src="js/counter-up/jquery.counterup.min.js"></script>
+
+    <!-- Easing -->
+    <script src="js/easing/jquery.easing.1.3.js"></script>
 
     <!-- Custom JS -->
     <script src="js/script.js"></script>
