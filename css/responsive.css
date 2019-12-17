@@ -1,14 +1,50 @@
 /* Bootstrap 4 Media Queries */
 /* Large Devices (Desktops & Laptop) */
 @media (min-width: 1200px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+    }
+
+    #navbarSupportedContent {
+        padding: 0 20px;
+    }
+
+    .navbar-brand {
+        padding-left: 20px;
+    }
 }
 
 /* Medium Devices (Landscape Tablets & Medium Desktops) */
 @media (min-width: 992px) and (max-width: 1199px) {
+    
+    #navbarSupportedContent {
+        padding: 0 20px;
+    }
+    .navbar-brand {
+        padding-left: 20px;
+    }
+
+    .service-tab .tab-bg {
+        padding: 16px 30px;
+        min-height: 395px;
+    }
+
+    /* .service-tab p {
+        line-height: 20px;
+    } */
 }
 
 /* Small Devices (Portrait Tablets & Small Desktops) */
 @media (min-width: 768px) and (max-width: 991px) {
+    
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
 }
 
 /* Extra Small Devices (Landscape Phones & Portrait Tablets) */
