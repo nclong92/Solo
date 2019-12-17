@@ -38,15 +38,92 @@
 @media (min-width: 768px) and (max-width: 991px) {
     
     .navbar-toggler {
-        padding: 0.25rem 0.75rem;
-        font-size: 1.25rem;
-        line-height: 1;
-        background-color: transparent;
-        border: 1px solid transparent;
-        border-radius: 0.25rem;
+        border: 1px solid #f4c613;
     }
+
+    /* Tech Statement */
+    #tech-statement h3 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    /* Service 02 */
+    .r-tabs-accordion-title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .r-tabs-accordion-title a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        color: #212226;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .r-tabs-accordion-title.r-tabs-state-active a {
+        color: #f4c613;
+        font-weight: 700;
+        border-bottom: 3px solid #f4c613;
+        padding-bottom: 5px;
+        -webkit-transition: border-color 300ms linear;
+        transition: border-color 300ms linear;
+    }
+
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .pricing-table .price h2 span.dollar {
+        left: 9px;
+    }
+
+    .pricing-table .price h2 span.month {
+        left: 18px;
+    }
+
+    .pricing-table .price h2 {
+        margin: 0 0 0 8px;
+    }
+
+    .stats-item {
+        min-height: 243px;
+    }
+
+    #stats .vertical-heading h5 {
+        left: -40px;
+    }
+
+    #blog .vertical-heading h5 {
+        left: -70px;
+    }
+
+    #contact .vertical-heading h5 {
+        left: -68px;
+    }
+
+    .navbar-brand {
+        padding-left: 20px;
+    }
+
+    .navbar-toggler-icon {
+        padding-right: 20px;
+    }
+
+    button#nav-btn {
+        margin: 20px;
+    }
+
+    .navbar-nav {
+        padding-left: 15px;
+    }
+
 }
 
 /* Extra Small Devices (Landscape Phones & Portrait Tablets) */
 @media (min-width: 767px) {
+
 }

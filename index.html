@@ -30,6 +30,9 @@
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
 
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate/animate.css">
+
     <!-- Custom Css -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -51,40 +54,40 @@
             <img src="img/logo/logo.png">
         </a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button id="nav-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- <div class="site-nav-wrapper"> -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
 
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#home">Trang chủ <span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#about">Giới thiệu </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#team">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#services">Dịch vụ </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#portfolio">Công việc </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#blog">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#contact">Liên lạc </a>
-                    </li>
-                </ul>
-            </div>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link smooth-scroll" href="#home">Trang chủ <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smooth-scroll" href="#about">Giới thiệu </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smooth-scroll" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smooth-scroll" href="#services">Dịch vụ </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smooth-scroll" href="#portfolio">Công việc </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smooth-scroll" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smooth-scroll" href="#contact">Liên lạc </a>
+                </li>
+            </ul>
+        </div>
         <!-- </div> -->
     </nav>
     <!-- </header> -->
@@ -106,15 +109,15 @@
         <div class="home-content">
             <div id="home-content-inner" class="text-center">
                 <div id="home-heading">
-                    <h1 id="home-heading-1">IGuide</h1><br>
-                    <h1 id="home-heading-2">Du lịch <span>Số</span></h1>
+                    <h1 id="home-heading-1" class="wow slideInDown" data-wow-duration="2s" data-wow-delay="0s">IGuide</h1><br>
+                    <h1 id="home-heading-2" class="wow slideInLeft" data-wow-duration="2s">Du lịch <span>Số</span></h1>
                 </div>
-                <div id="home-text">
+                <div id="home-text" class="wow zoomIn" data-wow-duration="2s">
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </p>
                 </div>
-                <div id="home-btn">
+                <div id="home-btn" class="wow zoomIn" data-wow-duration="2s">
                     <a class="btn btn-general btn-home smooth-scroll" href="#about" title="Start Now" role="button">Bắt
                         đầu khám
                         phá</a>
@@ -123,7 +126,7 @@
         </div>
 
         <!-- Arrow Down -->
-        <a href="#about" id="arrow-down" class="smooth-scroll">
+        <a href="#about" id="arrow-down" class="smooth-scroll wow slideInDown infinite" data-wow-duration="2s">
             <i class="fa fa-angle-down"></i>
         </a>
     </section>
@@ -1234,7 +1237,7 @@
         <div class="content-box-md">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-4">
                         <div id="blog-left">
                             <div class="vertical-heading">
                                 <h5>Tin mới nhất</h5>
@@ -1251,63 +1254,63 @@
                         </div>
                     </div>
 
-                    <div class="col-md-7">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <!-- Blog Post 01 -->
-                                <div class="blog-post">
-                                    <h4>Tiêu đề bài viết</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                    <a href="#">Hiển Thị Thêm</a>
-                                    <div class="post-meta">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <p>
-                                                    <img src="img/blog/user-1.jpg" alt="Tác Giả"
-                                                        class="img-circle">&nbsp;&nbsp;Isao Takashi
-                                                </p>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p class="text-right">
-                                                    November 26,2019
-                                                </p>
-                                            </div>
-                                        </div>
+                    <!-- <div class="col-md-8">
+                        <div class="row"> -->
+                    <div class="col-md-4">
+                        <!-- Blog Post 01 -->
+                        <div class="blog-post">
+                            <h4>Tiêu đề bài viết</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                            </p>
+                            <a href="#">Hiển Thị Thêm</a>
+                            <div class="post-meta">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8">
+                                        <p>
+                                            <img src="img/blog/user-1.jpg" alt="Tác Giả"
+                                                class="img-circle">&nbsp;&nbsp;Isao Takashi
+                                        </p>
                                     </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <!-- Blog Post 02 -->
-                                <div class="blog-post">
-                                    <h4>Tiêu đề bài viết</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                    <a href="#">Hiển Thị Thêm</a>
-                                    <div class="post-meta">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <p>
-                                                    <img src="img/blog/user-2.jpg" alt="Tác Giả"
-                                                        class="img-circle">&nbsp;&nbsp;Hoa Sy Kiet
-                                                </p>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p class="text-right">
-                                                    October 02,2017
-                                                </p>
-                                            </div>
-                                        </div>
+                                    <div class="col-md-4 col-sm-4">
+                                        <p class="text-right">
+                                            November 26,2019
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-md-4">
+                        <!-- Blog Post 02 -->
+                        <div class="blog-post">
+                            <h4>Tiêu đề bài viết</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                            </p>
+                            <a href="#">Hiển Thị Thêm</a>
+                            <div class="post-meta">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8">
+                                        <p>
+                                            <img src="img/blog/user-2.jpg" alt="Tác Giả"
+                                                class="img-circle">&nbsp;&nbsp;Hoa Sy Kiet
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4">
+                                        <p class="text-right">
+                                            October 02,2017
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -1476,6 +1479,9 @@
 
     <!-- Easing -->
     <script src="js/easing/jquery.easing.1.3.js"></script>
+
+    <!-- WOW JS -->
+    <script src="js/wow/wow.min.js"></script>
 
     <!-- Custom JS -->
     <script src="js/script.js"></script>
